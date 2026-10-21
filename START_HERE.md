@@ -2,6 +2,16 @@
 
 Use this guide to load the context needed for the assigned KPMG case task.
 
+## GITHUB SYNC POLICY
+
+GitHub is the shared source of truth for all non-private project work: AI context, research, discovery outputs, analytical notes, benchmark lessons and project state. Google Drive holds official/private case materials, collaborative Sheets, models, Slides and final deliverables. Do not duplicate these artifacts unnecessarily.
+
+- **Before substantive work:** check for local uncommitted changes (including untracked files) or an unresolved Git operation. If present, stop and tell the human; do not overwrite, reset or auto-stash their work. Otherwise sync safely with `origin/main` (fast-forward only), then re-read the latest `START_HERE.md` and task-relevant files.
+- **During work:** change only task-relevant files. Prefer a separate research/output file to overwriting a teammate's work. Never modify `private/`, stage or push anything from it, or copy its contents into tracked files.
+- **After creating or intentionally changing project files:** review the diff, fetch and safely reconcile with `origin/main` while preserving the intended task changes, then review the final diff. Stage only explicit intended files, commit with a descriptive message and automatically push to `origin/main`. Confirm push success and name the files pushed. Never force-push.
+- **On any sync/push failure, missing permission or conflict:** stop and explain the problem. Preserve local work; do not silently resolve strategic/content conflicts or claim the work is shared before the push succeeds.
+- **GitHub connector sessions:** read the latest repository version directly from GitHub, then the latest routing and task-relevant files. With write access, save completed task outputs back to the shared repository on `main` and verify success. With read-only access, clearly state that the result has **NOT been saved to GitHub**.
+
 ## Source hierarchy
 
 - `private/Case Materials, KPMG Strategy & Operations.pdf` is the highest authority for formal requirements. Consult it when interpreting requirements or deliverables.
