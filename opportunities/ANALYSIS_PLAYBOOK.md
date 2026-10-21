@@ -1,6 +1,6 @@
 # Analysis Playbook
 
-**Status:** PROPOSAL (20 Oct). The team has not adopted it yet.
+**Status:** ACTIVE (21 Oct), subordinate to `LOCKED_STARTING_POINT.md`, which governs where they differ.
 **For:** any teammate or AI tool analysing an opportunity at any stage. Model-agnostic.
 **Companions:** `SCREENING_APPROACH.md` (the funnel) · `RESEARCH_PROTOCOL.md` (evidence rules).
 Briefing references like "§8" point to `private/kpmg_briefing_notes.md`.
@@ -57,6 +57,9 @@ Not acceptable on their own:
 - **Compare on the 2–4 drivers that decide the economics** for this opportunity type (see `SCREENING_APPROACH.md` §3.3), not on a generic list.
 - **Ask whether the advantage is durable:** will it survive competitor responses, policy changes, the end of a subsidy?
 - **If Kazakhstan only matches the competitor,** what extra reason (market access, timing, policy, proximity to the buyer) tips the decision?
+- **Strongest-rival discipline:** name the rival *before* judging Kazakhstan, ideally independently by a second person, and have one person argue the rival's case. Check whether Kazakhstan shares the rival's constraint (water, power, gas).
+
+**Neighbours in three roles.** Test each relevant neighbour as a **buyer** (real access: duties, freight, time, local competitors), a **rival** for the same FDI, and a **trigger** whose constraints or policy changes may reopen an investment decision. "Access to Central Asia" alone is not evidence.
 
 ---
 
@@ -107,7 +110,8 @@ A trend-based idea is defensible when the chain, the analogue and the leading in
 
 ## 7. What are we ignoring?
 
-- **"If this is so attractive, why hasn't it been done?"** Possible answers: something has recently changed; there is an information gap; there is a barrier that can be fixed; or it isn't actually attractive. Know which applies.
+- **"If this is so attractive, why hasn't it been done?"** Possible answers: something has recently changed; there is an information gap; there is a coordination problem or a barrier that can be fixed; or it isn't actually attractive. Know which applies. An answer is **required** before an idea becomes a serious candidate (`LOCKED_STARTING_POINT.md` §9).
+- **Already captured?** Has it already been built or announced, and is there still room for another investor?
 - **Alternative opportunities:** is there an adjacent opportunity (a step up or down the value chain, a different target market, a different granularity) with a stronger case?
 - **Alternative explanations:** could the data pattern we see (rising imports, a price spread) have a different cause than the one we assume?
 - **Who loses** if this happens, and could they block it?
@@ -168,3 +172,4 @@ Record the challenges that weren't answered convincingly. They become either fur
 - Flag any trap from §5 that the analysis is at risk of.
 - Leave selection, kill decisions on non-obvious ideas, and final wording to the human team.
 - Don't start substantive opportunity research unless the team has explicitly approved it.
+- Follow `LOCKED_STARTING_POINT.md`; do not redesign the method.

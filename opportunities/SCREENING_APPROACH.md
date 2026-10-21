@@ -1,6 +1,15 @@
 # Opportunity Screening Approach
 
-**Status:** PROPOSAL v2 (revised 20 Oct). The team has not adopted it yet.
+> **SUPERSEDED FOR DAY-TO-DAY WORK (21 Oct 2026).** The locked method is in `LOCKED_STARTING_POINT.md`, which wins wherever this file conflicts with it. Kept as reference and history. Main conflicts:
+> - the lens catalogue (§2.1) treats Kazakhstan capability as an equal idea source → now only **specific under-used assets** may originate ideas;
+> - the thesis sentence (§1) is built around Kazakhstan's advantage → now the **investor location decision** format (locked §4);
+> - G1–G6 and the late V1 rival test → now the locked cheap-screen order, with the **strongest rival named in the cheap screen, before Kazakhstan is judged**;
+> - "why still open" was only a reflective question → now required;
+> - the §9 timeline and the "5–8 slides, assumed" note are outdated (5–8 slides is confirmed in the official PDF).
+>
+> Still useful: §0 principles 1–3 and 5, §3.1 outcome codes (FAIL needs evidence; UWT with a test), §3.3 economics by opportunity type, §8 human vs AI.
+
+**Status:** PROPOSAL v2 (revised 20 Oct). Never adopted as the operating method; superseded by `LOCKED_STARTING_POINT.md`.
 **Scope:** How we discover and narrow investment opportunities. No niches have been researched, recommended or selected.
 **Inputs:** Official case PDF and oral briefing notes (both in `private/`). Section references like "§8" point to `private/kpmg_briefing_notes.md`.
 **Companion files:** `RESEARCH_PROTOCOL.md` (how evidence is gathered and logged) · `ANALYSIS_PLAYBOOK.md` (how to reason about each opportunity).

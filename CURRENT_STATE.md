@@ -5,40 +5,48 @@ _Last updated: 21 Oct 2026_
 ## Case
 KPMG Strategy & Operations Case Competition 2026: identify investment niches in Kazakhstan for strategic foreign investors.
 Final submission: **26 October 2026** → recruitment@kpmg.kz.
-Deliverables: (1) longlist + shortlist, Excel + 1 slide; (2) analyses of Top 5 (5–8 slides each, assumed; the PDF wording is garbled); (3) one investor teaser, ≤3 slides.
-Source materials: `private/` (git-ignored; do not copy elsewhere).
+Deliverables (official PDF):
+1. Longlist + shortlist with selection rationale: Excel + 1 slide.
+2. Analyses of the Top 5: **5–8 slides each** (confirmed in the official PDF).
+3. One investor teaser: ≤3 slides.
+
+Source materials: `private/` (git-ignored; do not copy elsewhere) and the Drive folder linked in `START_HERE.md`.
+
+## Phase
+- **Phase 0 — case framing / methodology: CLOSED (21 Oct 2026).** The starting point is locked in `LOCKED_STARTING_POINT.md`. Do not redesign the method unless real research exposes a contradiction.
+- **Next: EXECUTION.** discovery inputs → consolidation → cheap screening → validation → deep research → human Top-5 selection → deliverables.
 
 ## Status
-- [x] Project setup complete
-- [x] Case PDF and briefing notes reviewed
-- [x] Routing layer: `START_HERE.md`, `AGENTS.md` and `CLAUDE.md`
+- [x] Project setup; case PDF and briefing notes reviewed
+- [x] Routing layer: `START_HERE.md`, `AGENTS.md`, `CLAUDE.md`
 - [x] Benchmark lessons: `BENCHMARK_LESSONS.md`
-- [x] Data-source arsenal: `DATA_SOURCES.md`
-- [x] Screening approach v2: `opportunities/SCREENING_APPROACH.md` (**proposal, not adopted**)
-- [x] Research protocol: `opportunities/RESEARCH_PROTOCOL.md` (**proposal**)
-- [x] Analysis playbook: `opportunities/ANALYSIS_PLAYBOOK.md` (**proposal**)
-- [x] Empty templates: `opportunities/templates/` (universe, longlist, evidence log, sources, assumptions)
-- [ ] Team review and adoption of the method
-- [x] Independent discovery started
-- [x] Claude capability/value-chain discovery pass completed on **21 Oct 2026**, with **39 hypotheses**: `opportunities/discovery/independent_pass_claude_2026-10-21.md` and matching `.csv` (discovery input for team review, not a selection decision)
-- Other independent discovery passes may still be pending; their completion is not confirmed.
-- [ ] Human screening decisions
-- [ ] Longlist, shortlist, finalists and Top 5 selection; teaser choice
+- [x] Data-source map: `DATA_SOURCES.md`
+- [x] Methodology reset: clean-room review + reconciliation with the previous operating plan
+- [x] **Starting point locked:** `LOCKED_STARTING_POINT.md` (authoritative for day-to-day work)
+- [x] Supporting method files: `opportunities/ANALYSIS_PLAYBOOK.md`, `opportunities/RESEARCH_PROTOCOL.md` (active); `opportunities/SCREENING_APPROACH.md` (reference/history; superseded where it conflicts with the locked starting point)
+- [ ] Discovery inputs (execution)
+- [ ] Consolidation, cheap screening, validation, deep research
+- [ ] Human Top-5 selection and teaser choice
+- [ ] Deliverables and QA
+
+## The original 39-card discovery pass
+`opportunities/discovery/independent_pass_claude_2026-10-21.md` / `.csv` (39 hypotheses, 21 Oct) is **not the primary opportunity universe**. It was generated capability-first and is kept as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Its hypotheses get no grandfathering: each must meet the same investor-location logic as any new hypothesis. See `LOCKED_STARTING_POINT.md` §14.
 
 ## Not yet decided
-No human screening decision has yet been made. No longlist, shortlist, finalists or Top 5 have been selected. Discovery hypotheses do not constitute team approval or selection; methodology adoption remains pending.
+No screening decision has been made. No longlist, shortlist, finalists, Top 5 or teaser have been selected.
 
-## Questions for the team (21 Oct)
-1. **Adopt / amend** the v2 funnel, gates (PASS / FAIL / UWT / PARK), questions Q1–Q6 and finalist tests V1–V5?
-2. **G3 scale:** in what unit (reachable market, investment size, minimum plant scale) and roughly what level counts as "strategic-investor sized"? A rough sense is enough for an early gate.
-3. **Granularity convention:** default level for the longlist; may the Top 5 mix a broad cluster with a narrow product?
-4. **Accessible markets:** which export markets count as realistically reachable?
-5. **UWT discipline:** how long a UWT may stay open; whether to cap UWTs per person or per idea; when to PARK instead.
-6. **Who may FAIL a non-obvious idea** (proposed: needs a second teammate when based mainly on missing data)?
-7. **Opportunity types:** accept the eight types in Screening §3.3, or adjust?
-8. **Scoring:** after seeing the shortlist, decide whether to score at all, and how.
-9. **Top 5 process:** who is in the final discussion; how disagreements are settled (consensus vs vote).
-10. **Discovery logistics:** time-box, lens ownership, independent generation first, use of AI-generated ideas.
-11. **Tooling:** shared Google Sheet as the single source of truth vs CSVs in this repo; who maintains the evidence log and sources register.
-12. **Citation format** on slides (Research Protocol §12) and deliverable language.
-13. **Slide limit:** confirm the "5–8 slides" reading with KPMG if unclear.
+## Open decisions for the team (human judgment)
+1. Strategic-investor scale threshold (rough sense is enough for screening).
+2. Whether any score is useful after the gates, and how.
+3. Final rival choice for each finalist.
+4. Interpretation of "why still open" in borderline cases.
+5. Top-5 selection and composition; who takes part and how disagreements are settled.
+6. Teaser selection.
+7. Final narrative, citation format on slides and deliverable language.
+8. Tooling: shared Google Sheet vs CSVs in this repo as the single source of truth; who maintains the kill log and sources register.
+
+Answered by the lock (no longer open): funnel and gate design, granularity convention (split where the deciding factor changes; cluster where it is shared), role of export markets and neighbours, UWT discipline (test + owner + time-box), opportunity types, discovery entry lines, use of the 39-card pass, slide limit.
+
+## Corrections recorded
+- "5–8 slides per Top-5 analysis" is stated clearly in the official PDF; the earlier "garbled wording" note was wrong.
+- Briefing interpretation (to be fixed by a human in the private notes / Drive): "50%" means 1 of 2 earlier niches was actually built; the transcript supports "trends + Kazakhstan's position + neighbours' position", not the longer "trends × capabilities × neighbours × structural change".

@@ -1,5 +1,7 @@
 # Independent Discovery Pass — Capability-First Value-Chain Hypotheses
 
+> **Status after methodology lock (21 Oct 2026):** NOT the primary opportunity universe. Use as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Hypotheses get no grandfathering: each must meet the investor-location logic in `LOCKED_STARTING_POINT.md` (§4, §9, §14). Content below is unchanged.
+
 **Date:** 21 Oct 2026 · **Author:** Claude (AI-assisted research pass, for team review)
 **Status:** Discovery input (E0–E1 evidence level per `RESEARCH_PROTOCOL.md` §10). Not a longlist decision. No ranking, no Top 5.
 **Independence:** Built without reading any other AI-generated opportunity list. Inputs were only the case briefing notes and `CURRENT_STATE.md` (for scope), plus fresh web research.

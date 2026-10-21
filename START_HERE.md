@@ -2,6 +2,16 @@
 
 Use this guide to load the context needed for the assigned KPMG case task.
 
+## Locked starting point (read this first)
+
+**Phase 0 (case framing / methodology) is CLOSED as of 21 Oct 2026. The project is in EXECUTION.**
+
+- **`LOCKED_STARTING_POINT.md` is authoritative for day-to-day work.** Read it before any task. Do not redesign the method; reopen it only if real research exposes a contradiction, and record that as a team decision.
+- In one line: the unit of analysis is an **investor location decision**, not a sector. Start from *which investor has to put capital somewhere, what decides where it goes, whether a specific place in Kazakhstan beats the strongest realistic rival on that factor for a large enough reachable market, and why the opportunity is still open*. Investor economics first; the KPMG oral briefing's principles are working tests throughout.
+- Active supporting files: `opportunities/ANALYSIS_PLAYBOOK.md` (reasoning habits), `opportunities/RESEARCH_PROTOCOL.md` (evidence rules), `BENCHMARK_LESSONS.md` (quality bar), `DATA_SOURCES.md` (source map).
+- `opportunities/SCREENING_APPROACH.md` is **reference / history**, superseded wherever it conflicts with the locked starting point.
+- The 39-card pass in `opportunities/discovery/` is a Kazakhstan fact bank and one specific-assets discovery pass, **not** the primary opportunity universe.
+
 ## GITHUB SYNC POLICY
 
 GitHub is the shared source of truth for all non-private project work: AI context, research, discovery outputs, analytical notes, benchmark lessons and project state. Google Drive holds official/private case materials, collaborative Sheets, models, Slides and final deliverables. Do not duplicate these artifacts unnecessarily.
@@ -31,7 +41,7 @@ Before substantive work, after GitHub sync, identify the decision and which sour
 
 ## Current state
 
-Read `CURRENT_STATE.md` for the project stage, approvals and open questions. Respect documented proposal/adoption status. Flag discrepancies with newer work without inventing decisions. An explicit human task assignment authorizes that task within its stated scope; it does not imply broader approval or methodology adoption.
+Read `CURRENT_STATE.md` for the project stage, approvals and open questions (Phase 0 is closed; the method is locked). Respect documented proposal/adoption status. Flag discrepancies with newer work without inventing decisions. An explicit human task assignment authorizes that task within its stated scope; it does not imply broader approval or methodology adoption.
 
 ## Task routing
 
@@ -39,13 +49,15 @@ Load only relevant context; combine routes when a task spans them. Do not mechan
 
 | Task involves | Read / consult |
 |---|---|
-| Opportunity discovery or screening | Read `opportunities/SCREENING_APPROACH.md`. |
+| Any task | Read `LOCKED_STARTING_POINT.md` first. |
+| Opportunity discovery or screening | Follow `LOCKED_STARTING_POINT.md` §4–§9. Consult `opportunities/SCREENING_APPROACH.md` only as reference (e.g. §3.3 economics by opportunity type). |
 | Research or evidence gathering | Read `opportunities/RESEARCH_PROTOCOL.md`; use `DATA_SOURCES.md` as a source map where useful. |
 | Strategic analysis, challenging a thesis or finalist review | Read `opportunities/ANALYSIS_PLAYBOOK.md`; consult `BENCHMARK_LESSONS.md` when useful as a quality benchmark. |
+| Using the original 39-card pass | Read `LOCKED_STARTING_POINT.md` §14 first: fact bank and one specific-assets pass; no grandfathering. |
 | An existing opportunity | Locate and read the relevant opportunity, discovery or research file before working, including relevant records in `opportunities/discovery/`. |
 | Current team status or prior decisions | Read `CURRENT_STATE.md` and `DECISIONS.md` if it exists. |
 
-For “Assess whether this opportunity deserves deeper research,” read its existing record, the screening approach and analysis playbook; also load the research protocol if gathering evidence.
+For “Assess whether this opportunity deserves deeper research,” read its existing record, `LOCKED_STARTING_POINT.md` and the analysis playbook; also load the research protocol if gathering evidence.
 
 ## Default AI behaviour
 

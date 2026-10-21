@@ -1,6 +1,6 @@
 # Research Protocol
 
-**Status:** PROPOSAL (20 Oct). The team has not adopted it yet.
+**Status:** ACTIVE (21 Oct), subordinate to `LOCKED_STARTING_POINT.md`. Capital-movement evidence: announced/MoU = weak; signed = stronger; financed / under construction / operating = strongest.
 **Applies to:** every teammate and every AI tool doing research for the case.
 **Companions:** `SCREENING_APPROACH.md` (the funnel) · `ANALYSIS_PLAYBOOK.md` (how to reason) · `templates/` (logs).
 Briefing references like "§15" point to `private/kpmg_briefing_notes.md`.
