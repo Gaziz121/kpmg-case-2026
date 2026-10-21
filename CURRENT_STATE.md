@@ -10,7 +10,7 @@ Deliverables (official PDF):
 2. Analyses of the Top 5: **5–8 slides each** (confirmed in the official PDF).
 3. One investor teaser: ≤3 slides.
 
-Source materials: `private/` (git-ignored; do not copy elsewhere) and the Drive folder linked in `START_HERE.md`.
+Source materials: the official case PDF, raw briefing transcript and briefing notes are tracked in `private/` (read-only; see `START_HERE.md` for reading order and authority); other `private/` files stay git-ignored. Copies also in the Drive folder linked in `START_HERE.md`.
 
 ## Phase
 - **Phase 0 — case framing / methodology: CLOSED (21 Oct 2026).** The starting point is locked in `LOCKED_STARTING_POINT.md`. Do not redesign the method unless real research exposes a contradiction.

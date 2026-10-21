@@ -6,6 +6,13 @@ Use this guide to load the context needed for the assigned KPMG case task.
 
 **Phase 0 (case framing / methodology) is CLOSED as of 21 Oct 2026. The project is in EXECUTION.**
 
+**Before substantive case work, read in this order:**
+1. `private/Case Materials, KPMG Strategy & Operations.pdf` — the official case; **highest authority** for formal requirements.
+2. `private/raw_briefing_transcript.md` — **primary source** for what KPMG actually said in the oral briefing.
+3. `private/kpmg_briefing_notes.md` — convenience summary of the briefing; it never overrides the transcript.
+4. `LOCKED_STARTING_POINT.md` — the **authoritative operating methodology**.
+5. `CURRENT_STATE.md` — project stage, decisions and open questions.
+
 - **`LOCKED_STARTING_POINT.md` is authoritative for day-to-day work.** Read it before any task. Do not redesign the method; reopen it only if real research exposes a contradiction, and record that as a team decision.
 - In one line: the unit of analysis is an **investor location decision**, not a sector. Start from *which investor has to put capital somewhere, what decides where it goes, whether a specific place in Kazakhstan beats the strongest realistic rival on that factor for a large enough reachable market, and why the opportunity is still open*. Investor economics first; the KPMG oral briefing's principles are working tests throughout.
 - Active supporting files: `opportunities/ANALYSIS_PLAYBOOK.md` (reasoning habits), `opportunities/RESEARCH_PROTOCOL.md` (evidence rules), `BENCHMARK_LESSONS.md` (quality bar), `DATA_SOURCES.md` (source map).
@@ -17,7 +24,7 @@ Use this guide to load the context needed for the assigned KPMG case task.
 GitHub is the shared source of truth for all non-private project work: AI context, research, discovery outputs, analytical notes, benchmark lessons and project state. Google Drive holds official/private case materials, collaborative Sheets, models, Slides and final deliverables. Do not duplicate these artifacts unnecessarily.
 
 - **Before substantive work:** check for local uncommitted changes (including untracked files) or an unresolved Git operation. If present, stop and tell the human; do not overwrite, reset or auto-stash their work. Otherwise sync safely with `origin/main` (fast-forward only), then re-read the latest `START_HERE.md` and task-relevant files.
-- **During work:** change only task-relevant files. Prefer a separate research/output file to overwriting a teammate's work. Never modify `private/`, stage or push anything from it, or copy its contents into tracked files.
+- **During work:** change only task-relevant files. Prefer a separate research/output file to overwriting a teammate's work. Never modify `private/`. Only the three official case files listed under Source hierarchy are tracked; never stage or push any other file from `private/`, and do not add new files there expecting them to be shared.
 - **After creating or intentionally changing project files:** review the diff, fetch and safely reconcile with `origin/main` while preserving the intended task changes, then review the final diff. Stage only explicit intended files, commit with a descriptive message and automatically push to `origin/main`. Confirm push success and name the files pushed. Never force-push.
 - **On any sync/push failure, missing permission or conflict:** stop and explain the problem. Preserve local work; do not silently resolve strategic/content conflicts or claim the work is shared before the push succeeds.
 - **GitHub connector sessions:** read the latest repository version directly from GitHub, then the latest routing and task-relevant files. With write access, save completed task outputs back to the shared repository on `main` and verify success. With read-only access, clearly state that the result has **NOT been saved to GitHub**.
@@ -26,7 +33,7 @@ GitHub is the shared source of truth for all non-private project work: AI contex
 
 Before substantive work, after GitHub sync, identify the decision and which sources are required to answer it correctly. Read them directly from the system that owns them:
 
-- **GitHub:** shared project context, research, analytical notes, methodology, benchmark lessons and current project state; follow the task-routing table below.
+- **GitHub:** the official case materials (the three tracked files in `private/`), shared project context, research, analytical notes, methodology, benchmark lessons and current project state; follow the task-routing table below.
 - **Google Drive:** use the existing [KPMG Case Competition 2026 folder](https://drive.google.com/drive/folders/1YZx-MiU48X_Z28pohdt6ypXvhZAxax-A) directly for official/private case materials, briefing notes and other private sources, `02 Master Opportunity Sheet` / the current collaborative tracker, financial models, the working deck and final deliverables.
 - When both systems are needed and accessible, use both; do not ask the human to copy information between them. Read only task-relevant Drive artifacts, not everything in the folder.
 - If a required Drive source is inaccessible, name the unavailable source, explain why access failed and why it matters to the decision. Do not guess its contents.
@@ -34,10 +41,14 @@ Before substantive work, after GitHub sync, identify the decision and which sour
 
 ## Source hierarchy
 
-- `Case Materials, KPMG Strategy & Operations.pdf` in Drive is the highest authority for formal requirements and outranks derived notes in a conflict. Consult it when interpreting requirements or deliverables.
-- `kpmg_briefing_notes.md` in Drive contains important KPMG oral guidance, not formal written requirements. Consult relevant guidance for the task.
-- `raw_briefing_transcript.md` in Drive is for verification only when oral wording is ambiguous.
-- Human team decisions override AI-generated proposals. Never infer team agreement from an AI output or treat a proposal as adopted. Existing local source copies in `private/` remain read-only and must never be committed or pushed.
+The three official case files are tracked in `private/` in this repository (copies also in Drive).
+
+1. `private/Case Materials, KPMG Strategy & Operations.pdf` is the highest authority for formal requirements and outranks everything else in a conflict.
+2. `private/raw_briefing_transcript.md` is the primary source for what KPMG actually said orally (guidance, not formal written requirements).
+3. `private/kpmg_briefing_notes.md` is a convenience summary of the briefing. Where it differs from the transcript, the transcript wins.
+4. `LOCKED_STARTING_POINT.md` is the authoritative operating methodology.
+
+Human team decisions override AI-generated proposals. Never infer team agreement from an AI output or treat a proposal as adopted. The files in `private/` are read-only source material; do not edit them.
 
 ## Current state
 

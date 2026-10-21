@@ -1,2 +1,6 @@
-private/
+# private/ stays ignored by default; only the three official case files are tracked
+private/*
+!private/Case Materials, KPMG Strategy & Operations.pdf
+!private/kpmg_briefing_notes.md
+!private/raw_briefing_transcript.md
 .DS_Store
