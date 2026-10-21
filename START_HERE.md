@@ -12,12 +12,22 @@ GitHub is the shared source of truth for all non-private project work: AI contex
 - **On any sync/push failure, missing permission or conflict:** stop and explain the problem. Preserve local work; do not silently resolve strategic/content conflicts or claim the work is shared before the push succeeds.
 - **GitHub connector sessions:** read the latest repository version directly from GitHub, then the latest routing and task-relevant files. With write access, save completed task outputs back to the shared repository on `main` and verify success. With read-only access, clearly state that the result has **NOT been saved to GitHub**.
 
+## Source routing
+
+Before substantive work, after GitHub sync, identify the decision and which sources are required to answer it correctly. Read them directly from the system that owns them:
+
+- **GitHub:** shared project context, research, analytical notes, methodology, benchmark lessons and current project state; follow the task-routing table below.
+- **Google Drive:** use the existing [KPMG Case Competition 2026 folder](https://drive.google.com/drive/folders/1YZx-MiU48X_Z28pohdt6ypXvhZAxax-A) directly for official/private case materials, briefing notes and other private sources, `02 Master Opportunity Sheet` / the current collaborative tracker, financial models, the working deck and final deliverables.
+- When both systems are needed and accessible, use both; do not ask the human to copy information between them. Read only task-relevant Drive artifacts, not everything in the folder.
+- If a required Drive source is inaccessible, name the unavailable source, explain why access failed and why it matters to the decision. Do not guess its contents.
+- Modify collaborative Drive artifacts only when the assigned task requires an update.
+
 ## Source hierarchy
 
-- `private/Case Materials, KPMG Strategy & Operations.pdf` is the highest authority for formal requirements. Consult it when interpreting requirements or deliverables.
-- `private/kpmg_briefing_notes.md` contains important KPMG oral guidance, not formal written requirements. Consult relevant guidance for the task.
-- `private/raw_briefing_transcript.md` is for verification only when oral wording is ambiguous.
-- Human team decisions override AI-generated proposals. Never infer team agreement from an AI output or treat a proposal as adopted. Keep private source materials in `private/`.
+- `Case Materials, KPMG Strategy & Operations.pdf` in Drive is the highest authority for formal requirements and outranks derived notes in a conflict. Consult it when interpreting requirements or deliverables.
+- `kpmg_briefing_notes.md` in Drive contains important KPMG oral guidance, not formal written requirements. Consult relevant guidance for the task.
+- `raw_briefing_transcript.md` in Drive is for verification only when oral wording is ambiguous.
+- Human team decisions override AI-generated proposals. Never infer team agreement from an AI output or treat a proposal as adopted. Existing local source copies in `private/` remain read-only and must never be committed or pushed.
 
 ## Current state
 
