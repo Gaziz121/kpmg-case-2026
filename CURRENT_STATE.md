@@ -1,6 +1,6 @@
 # Current State
 
-_Last updated: 21 Oct 2026_
+_Last updated: 22 Oct 2026_
 
 ## Case
 KPMG Strategy & Operations Case Competition 2026: identify investment niches in Kazakhstan for strategic foreign investors.
@@ -33,7 +33,9 @@ Source materials: the official case PDF, raw briefing transcript and briefing no
 `opportunities/discovery/independent_pass_claude_2026-10-21.md` / `.csv` (39 hypotheses, 21 Oct) is **not the primary opportunity universe**. It was generated capability-first and is kept as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Its hypotheses get no grandfathering: each must meet the same investor-location logic as any new hypothesis. See `LOCKED_STARTING_POINT.md` §14.
 
 ## Not yet decided
-No screening decision has been made. No longlist, shortlist, finalists, Top 5 or teaser have been selected.
+No team screening decision has been made. No team longlist, shortlist, finalists, Top 5 or teaser have been selected.
+
+Aibek's 59-niche draft (`opportunities/discovery/longlist_aibek_uzkie_nishi_2026-10-22.md`) is individual discovery input, not a team-selected longlist. His "narrow niche with large impact" lens is a proposed search lens, not an adopted team strategy. His sulfuric-acid deferral applies to his own work, not a team PARK / FAIL / exclusion; see `DECISIONS.md` for attribution.
 
 ## Open decisions for the team (human judgment)
 1. Strategic-investor scale threshold (rough sense is enough for screening).

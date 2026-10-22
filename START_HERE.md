@@ -50,6 +50,8 @@ The three official case files are tracked in `private/` in this repository (copi
 
 Human team decisions override AI-generated proposals. Never infer team agreement from an AI output or treat a proposal as adopted. The files in `private/` are read-only source material; do not edit them.
 
+Individual human proposals, workstreams, priorities and deferrals are not team-approved decisions unless team adoption is explicitly recorded.
+
 ## Current state
 
 Read `CURRENT_STATE.md` for the project stage, approvals and open questions (Phase 0 is closed; the method is locked). Respect documented proposal/adoption status. Flag discrepancies with newer work without inventing decisions. An explicit human task assignment authorizes that task within its stated scope; it does not imply broader approval or methodology adoption.
