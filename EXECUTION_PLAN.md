@@ -6,7 +6,9 @@
 
 ## 1. Independent block: ownership and permitted inputs
 
-Run the four streams simultaneously for approximately 60 minutes. There is no new human brainstorming stage. Each person creates and edits only their own output below, using the common format in §3. Paths are defined now; no research records or empty per-person files are created by this plan.
+Run the four streams asynchronously: each person starts and completes their assignment independently, without waiting for the others to begin. There is no new human brainstorming stage. Each person creates and edits only their own output below, using the common format in §3. Paths are defined now; no research records or empty per-person files are created by this plan.
+
+Gaziz and Aibek have no strict consolidation time-box. Each fully processes the relevant hypotheses in their own assigned source scope: extract, normalize, deduplicate, preserve provenance/useful evidence and remove ranking/promotional information from screening-facing records. Freeze when that finite assignment is complete; do not extend it into new broad discovery.
 
 All four may consult the official case, raw briefing, locked starting point and relevant research-protocol instructions. The clean streams have the narrower loading rules in §2.
 
@@ -36,20 +38,20 @@ For each of their two routes, Sagadat and Beknur start a separate fresh AI conte
 
 The explicit clean-discovery assignment is a task-specific exception to general project-context loading: do not load `CURRENT_STATE.md`, `DECISIONS.md`, briefing summaries, prior chat histories, discovery files, the OKED reference, or earlier model reports into these contexts. Read these execution instructions without following links to excluded material. Do not search the repository for candidate ideas. If a tool automatically injects excluded context, disclose the exposure and restart the affected route in a context with the permitted packet only; do not call the exposed run clean. The permitted methodology itself contains historical examples, so this is isolation from prior discovery outputs, not a claim of perfect experimental blindness.
 
-| Owner | Route 1: approximately 20 minutes | Route 2: approximately 20 minutes |
+| Owner | Route 1 | Route 2 |
 |---|---|---|
 | Sagadat | Identifiable strategic investors facing build, expansion, diversification, market-entry or supply-chain decisions; establish why Kazakhstan could compete for that capital. | Specific regional buyers with delivered-cost, lead-time, reliability, qualification or access problems that a Kazakhstan operation might solve. Avoid import-substitution shortcuts. |
 | Beknur | MRO, servicing, testing, certification, qualification, asset operation and recurring B2B services with identifiable payers. | Specific brownfield, JV, acquisition, tolling or contracted-operation openings; assets or partnerships becoming available. An existing asset alone is insufficient. |
 
-Use the remaining approximately 20 minutes to verify useful sources, prune vague leads and write cards. Keep both routes isolated from prior lists until the owner's independent block is complete.
+Complete both assigned routes, verify the strongest leads with useful sources, prune vague leads and write cards. Approximately **60–90 minutes total per person** is practical guidance, not a hard clock or a synchronization requirement. Limit scope, not collaboration timing. Keep both routes isolated from prior lists until the owner's independent block is complete.
 
 - Up to two usable distinct hypotheses per route; no minimum; at most four per person. A route may return zero. Include a brief route-completion note even when it returns no cards.
 - Roughly 150–200 words per card, excluding links and field names. Show the causal chain: **external fact → investor/customer problem → capital decision → Kazakhstan hypothesis**.
 - Provide 2–3 strong initial source links supporting specific claims; prefer company annual reports, investor presentations, capex announcements, procurement plans, operator materials, project disclosures, regulatory/trade data and relevant industry associations. Do not pad citations or fabricate a missing source; record the gap as `not established`.
 - Label substantive statements FACT / CALCULATION / ASSUMPTION / INFERENCE / JUDGMENT. Unknown fields remain `not established` or `unknown`.
 - No ranking, stars, Top 5, detailed DCF/IRR, long sector reports or promotional language. Do not solve the whole case.
-- Stop a route when its time-box ends or two usable distinct hypotheses have been found. Stop pursuing a lead if it remains only a sector/trend, lacks an articulable investor decision or paying market, relies on a generic Kazakhstan advantage, or encounters an evidenced fatal contradiction. Record an evidence-backed rejection without turning missing evidence into FAIL.
-- Stop the independent discovery block at approximately 60 minutes. Do not extend it because a model offers more ideas.
+- Stop a route once it has been sufficiently searched and its best usable leads are documented, with at most two usable distinct hypotheses; zero or one is acceptable. Stop pursuing a lead if it remains only a sector/trend, lacks an articulable investor decision or paying market, relies on a generic Kazakhstan advantage, or encounters an evidenced fatal contradiction. Record an evidence-backed rejection without turning missing evidence into FAIL.
+- Freeze the discovery output after both bounded routes and source/card review are complete. Do not expand a stream into several hours of open-ended searching because a model offers more ideas.
 
 ## 3. One common working-output format
 
@@ -98,9 +100,17 @@ Use one provenance row per original occurrence; repeat the retained working ID w
 
 ## 5. Freeze, controlled merge and screening handoff
 
-**At approximately minute 60:** each owner freezes their output and completes publication in the coordinated turns. Record the freeze timestamp in the file; report the resulting commit at handoff (do not try to embed a commit's own hash into its contents). Keep the four snapshots unchanged after handoff. Gaziz is the single merge owner for this operation; any transfer of that responsibility must be explicit before editing begins. The other three discuss and review, but do not simultaneously edit the master.
+Each owner independently:
 
-Once all four frozen outputs are available, Gaziz:
+1. Completes their assigned work.
+2. Reviews the output for schema/source compliance.
+3. Marks the file `FROZEN` with the actual Almaty timestamp.
+4. Publishes only their owned output under the existing Git safety rules and coordinated publishing turns.
+5. Reports the frozen path and resulting commit at handoff (do not try to embed a commit's own hash into its contents).
+
+No teammate needs to wait idle before doing their own assigned work. Keep each frozen snapshot unchanged after handoff unless an explicit correction is agreed; the owner then publishes the correction and reports the replacement snapshot/commit before it is used in the merge. Gaziz remains the single merge owner; any transfer of that responsibility must be explicit before editing begins. The other three discuss and review, but do not simultaneously edit the master.
+
+**After all four assigned outputs have been completed, frozen and published**, Gaziz begins the controlled merge. The team can then reconvene for merge/review/screening. Gaziz:
 
 1. Extracts the four hypothesis blocks; checks the common header, ID uniqueness, missing fields and source mappings. Missing fields are not silently invented. Incomplete/unavailable streams are disclosed rather than claimed as incorporated.
 2. Deduplicates by the **investor capital decision**, not sector, asset, feedstock or product family. Preserves materially different variants; flags uncertain merges for the group instead of silently collapsing them.
@@ -110,7 +120,7 @@ Once all four frozen outputs are available, Gaziz:
 6. Checks the neutral view for contributor/model names, original ranking, stars, Top-5 labels, working-ID prefixes and repeated-mention counts. Remove recommendation language and author-revealing links to prior AI reports from that view; preserve them in the provenance file. Keep analytically necessary company names, locations, primary-source links and evidence visible. Do not order records by prior ranking or mention frequency.
 7. Divides the neutral `OP-###` records into four non-overlapping queues with reasonably balanced effort, minimizing each person's own prepared material where practical. Give screeners only their neutral records and necessary evidence, not the provenance file or four source outputs. Recognition is possible; disclose it rather than claiming perfect anonymity.
 
-The merge owner alone publishes the two merge files. No four-way master editing. Target a 15–30 minute merge/handoff after the inputs freeze; if intake or publication is incomplete, start screening ready batches and disclose outstanding work rather than extend discovery or select a funded pool before the remaining inputs are considered.
+The merge owner alone publishes the two merge files. No four-way master editing. Merge and screening handoff are triggered by completed outputs, not elapsed-session timestamps: if any required input is incomplete, unfrozen or unpublished, disclose the outstanding work and wait to begin the merge. Screening begins after the controlled merge and neutral queue preparation are complete.
 
 Screeners record recommendations in separately owned files, created when screening starts:
 
