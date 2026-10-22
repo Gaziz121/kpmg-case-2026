@@ -107,16 +107,23 @@ Order:
 
 **FAIL requires evidence against the idea.** If evidence is missing rather than negative, mark UWT with the exact test, an owner and a time-box. Every kill keeps a one-line reason and source: the kill log is the longlist-to-shortlist logic shown to KPMG.
 
+**Apply the four reasoning checks progressively** (`opportunities/RESEARCH_PROTOCOL.md` §14). Cheap screening stays cheap: do not research comparables or project outcomes for an idea that already fails a simple captured-status or scale test. Before a serious opportunity receives PASS, construct the strongest **NO case** from the investor CFO, strongest rival location and skeptical KPMG judge; each must attack the central causal thesis, not list generic risks. Revisit it before entry into the final Top 5 and record whether objections change PASS / UWT / FAIL. These checks are not a weighted scorecard; a fatal contradiction can still kill the idea.
+
 ## 10. Evidence discipline
 
 - Log sources from the first minute; important claims need working links (`opportunities/RESEARCH_PROTOCOL.md`).
 - Capital-movement evidence: announced / MoU = weak; signed = stronger; financed / under construction / operating = strongest.
 - Every decisive assumption is tested over a range, including the value at which the recommendation flips.
 - No slide number, rival comparison, project status, policy claim or final decision rests on one AI/model output alone.
+- **Revealed preference:** for every serious survivor, research 2–3 comparable real investment/location decisions where possible; test whether observed choice factors support or contradict Kazakhstan's assumed deciding factor. Similar plants alone do not establish location logic.
+- **Outside view / base rate:** for material survivors, examine comparable project outcomes, time to operation and recurring blockers. Distinguish announced / MoU, signed / permitted, financed / FID, under construction and operating; use a small comparable set when a statistical base rate is unavailable. Do not manufacture percentages.
+- Prioritize primary sources; every material external finding needs a working URL. Label substantive statements **FACT / CALCULATION / ASSUMPTION / INFERENCE / JUDGMENT**. If evidence or actual location-choice logic is unavailable, write **"not established"** rather than inventing it.
 
 ## 11. Strategic agenda
 
 Validation, not the source of attractiveness. Translate fit into concrete investor-relevant instruments: tax/customs preferences, land, infrastructure, grid connection, state partner, co-investment, offtake, approval support. Fit can be strong, weak or negative. **Positive fit never rescues weak economics. Negative fit can kill an idea.**
+
+**Agency counterfactual — every shortlisted opportunity:** if Kazakhstan's investment-promotion agency did nothing, would this investment likely happen anyway? Classify **STRONG AGENCY ROLE / MODERATE AGENCY ROLE / WEAK AGENCY ROLE / UNCLEAR** and identify the specific friction, concrete intervention and whether it would change the investment decision. Generic government "support" earns no credit. This assesses promotion actionability after the investor case works.
 
 ## 12. Business model
 

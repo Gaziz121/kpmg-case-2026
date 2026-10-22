@@ -126,6 +126,8 @@ KPMG allows reasonable assumptions when data is unavailable, but they must be st
 
 Evidence requirements rise as the funnel narrows. Matches `SCREENING_APPROACH.md` §7.
 
+Apply the four reasoning checks in §14 progressively within the existing stages and time-boxes; `LOCKED_STARTING_POINT.md` governs where older stage references differ. Early hypotheses do not require full comparable research. Serious survivors do; every shortlisted opportunity needs the agency counterfactual, and a serious opportunity needs the strongest NO case before PASS and again before final Top-5 entry.
+
 | Level | Stage | Minimum evidence | Time-box per idea |
 |---|---|---|---|
 | **E0** | Discovery universe | Idea card only. No source required | ~1–2 min |
@@ -169,3 +171,90 @@ The **evidence log** is the bridge between research and slides.
 - **Allowed:** finding candidate sources, summarising long documents, data processing, calculations, translation, drafting the research brief, red-teaming.
 - **Required:** a human opens each cited source and confirms the claim before it enters the evidence log (`verified_by`).
 - **Not allowed:** citing AI output, logging numbers produced by AI without a source, or presenting AI-written narrative unedited (§22).
+
+---
+
+## 14. Four reasoning checks for serious survivors
+
+These checks test the existing investor-location thesis; they do not create a new framework, ranking or weighted scorecard. Apply them as the opportunity advances, using the existing research brief, evidence logs and PASS / UWT / PARK / FAIL outcomes.
+
+### 14.1 Application and evidence rules
+
+- **Keep cheap screening cheap.** Run simple kill tests first, including captured status and reachable scale. Stop on an evidenced fatal weakness; do not spend time finding 2–3 comparables or base rates for an idea that already fails.
+- **Deepen only serious survivors.** Research revealed preference for each serious survivor and the outside view for material opportunities during validation / deep research. Assess the agency counterfactual for every shortlisted opportunity. Construct the NO case before a serious opportunity receives PASS; revisit it before final Top-5 entry and when decisive evidence changes.
+- **Use primary sources first:** company announcements, investor presentations, project filings, government investment announcements and management interviews. Use credible industry sources to fill gaps, tracing their claims to originals where possible (§4–§5).
+- **Every material external finding needs a working URL,** including findings against the thesis. Record the source date, accessed date and relevant locator under §8; source IDs must resolve to those links. Verify that the linked source supports the exact claim.
+- Label substantive statements **FACT / CALCULATION / ASSUMPTION / INFERENCE / JUDGMENT** (the existing `claim_type` codes in §12 remain lowercase). Distinguish a stated investor rationale from our inference about causation. Where evidence is unavailable, write **"not established"**, state what was searched and what remains unknown; do not fill the gap with invented facts or logic. Any assumption used to test the gap remains explicit under §9.
+- Record the implication for the thesis and confidence. An unresolved decisive claim is UWT with a test, owner and time-box; FAIL needs evidence against the idea. A fatal contradiction is not offset by favorable findings elsewhere. Keep final selection with the human team.
+
+### 14.2 Revealed preference: actual investor choices
+
+**Question:** does our theoretical location logic match real investor behavior?
+
+For every serious surviving opportunity, research **2–3 comparable real investment/location decisions where possible**. Explain why each is comparable on the activity, market, scale or deciding factor. Finding similar companies or plants alone is insufficient.
+
+Establish who invested, the capacity/activity funded, realistically considered locations **if public**, the location ultimately chosen and the factors evidenced as driving that choice. Test whether those observed factors support or contradict the assumed deciding factor for Kazakhstan. If the alternatives or actual decision logic are not public, record **"not established"**; do not invent a shortlist or infer a motive merely from the chosen location. If fewer than 2–3 useful decisions are available, record the search limitation and its implication for confidence.
+
+**Required record, per comparable:**
+
+| Field | Required content |
+|---|---|
+| Comparable | Investor, project, capacity/activity, decision date and why comparable |
+| Location decision | Chosen location; realistic alternatives if disclosed, otherwise "not established" |
+| Observed deciding factors | Sourced rationale; distinguish investor statements from our inference and flag unpublished logic |
+| Implication for our thesis | Supports / contradicts / inconclusive on Kazakhstan's assumed deciding factor, with the reason |
+| Evidence | Source links / evidence IDs, dates, locators and claim-type labels |
+
+### 14.3 Outside view / base rate: what happens to projects
+
+**Question:** what normally happens to comparable projects, rather than what the announcement promises?
+
+Build a small, explicitly defined comparable project set where possible. State the selection basis, geography, period and differences that limit transfer to Kazakhstan. Look for stalled, cancelled or delayed projects as well as operating successes; a list of completed plants alone cannot establish a completion rate.
+
+For each project, distinguish **announced / MoU → signed / permitted → financed / FID → under construction → operating**. Record the specific milestone actually evidenced: signing is not a permit, FID is not proof of financing, and neither is operation. Record achieved dates, latest status as of the research date and any cancellation, stall or delay; separate planned dates from actual dates. An announcement is not evidence of eventual completion, and a project still progressing is not automatically a failure.
+
+Ask whether comparable projects reach operation, where they fail, how long they take and which blockers recur. Check whether the industry has many announcements but few completed projects. Use observed timelines or ranges with their starting milestone; if there is no reliable comparison, say **"not established"**. Do not manufacture percentages. A numerical base rate requires real data with a defined cohort, denominator, observation period and treatment of projects still in progress; otherwise describe the small set without claiming statistical representativeness.
+
+**Required record:** comparable project set and selection limits; each project's observed milestone/outcome and dates; observed time to operation or delays; main recurring blockers; implication for confidence in our thesis; source links / evidence IDs and claim-type labels.
+
+### 14.4 Agency counterfactual: decision-changing intervention
+
+For **every shortlisted opportunity**, ask:
+
+> If Kazakhstan's investment-promotion agency did nothing, would this investment likely happen anyway?
+
+First describe the likely investment decision without agency action: whether it proceeds in Kazakhstan, proceeds elsewhere, is delayed or does not proceed. Identify the specific friction and the exact action that could change that outcome. Test whether the agency can deliver or coordinate it and whether it is likely to change the investor's decision. Do not credit generic government "support" or assume that the existence of an instrument makes it decisive.
+
+Possible interventions include closing an investor information gap; land/site coordination; infrastructure connection; licensing/permitting coordination; feedstock access; a buyer/offtake consortium; JV / partner identification; state-company coordination; financing/co-investment; an SEZ/customs/tax instrument; or cross-agency coordination. Tie any proposed action to an evidenced blocker rather than copying this list.
+
+Classify the role, with an explicit basis:
+
+- **STRONG AGENCY ROLE:** a specific, feasible agency intervention is likely to change whether or where the investor commits capital.
+- **MODERATE AGENCY ROLE:** a specific intervention plausibly improves timing, scale or probability, but is only partly decisive.
+- **WEAK AGENCY ROLE:** the investment likely happens anyway, or the proposed action does little to resolve the deciding friction.
+- **UNCLEAR:** the counterfactual, blocker or decision-changing effect is not established.
+
+**Required record:** counterfactual without agency; blocker; concrete agency action and responsible body/coordination route; whether the action is likely decision-changing and why; role classification; evidence/source links where applicable. Label the counterfactual and classification as INFERENCE or JUDGMENT as appropriate. Assess promotion actionability separately from investor economics; agency support cannot rescue a failed investor case.
+
+### 14.5 Adversarial / NO case: attack the central thesis
+
+Before a **serious opportunity receives PASS or enters the final Top 5**, construct the strongest case against it from all three perspectives:
+
+| Perspective | Required challenge |
+|---|---|
+| Investor CFO | Why should I NOT allocate capital to Kazakhstan? Attack the return mechanism or decisive assumption. |
+| Strongest rival location | Why does my location beat Kazakhstan on the factor that actually decides this investment? |
+| Skeptical KPMG judge | What is the weakest assumption, missing evidence or reason this is not truly investor-ready? |
+
+Each objection must attack the opportunity's **central causal thesis**, not become a generic risk list. Seek evidence supporting the objection before drafting a response. A response is valid only to the extent that evidence supports it; an optimistic assertion does not close the challenge. If no evidenced response exists, write **"not established"** and identify the unresolved test. Use the existing challenge round where applicable rather than creating a parallel review process.
+
+**Required record:** strongest CFO objection; strongest rival-country/location argument; strongest judge objection; evidence/source links supporting each; response and supporting evidence if available; resulting PASS / UWT / FAIL status and whether/why it changes. Unresolved decisive objections remain UWT; evidenced fatal contradictions can produce FAIL regardless of other attractions. Do not promote unresolved decisive claims into a final Top-5 recommendation.
+
+### 14.6 Existing opportunity-record fields
+
+Use the four concise fields in `templates/longlist_template.csv`. Each can hold a short finding plus evidence IDs or a link to the detailed note containing the required fields above. Populate them progressively; early ideas need no full record. Once a check is due, missing evidence is recorded as **"not established"** with the gap/test, not left to imply completion.
+
+- `revealed_preference_evidence`: actual location choices, observed deciding factors and implication for the thesis (§14.2).
+- `outside_view_evidence`: comparable outcomes, timing, recurring blockers and implication for confidence (§14.3).
+- `agency_counterfactual`: without-agency outcome, blocker, concrete action, decision-changing effect and role classification (§14.4).
+- `strongest_no_case`: CFO / rival / judge objections, evidence, evidenced response if any and status impact (§14.5).
