@@ -16,6 +16,7 @@ Use this guide to load the context needed for the assigned KPMG case task.
 - **`LOCKED_STARTING_POINT.md` is authoritative for day-to-day work.** Read it before any task. Do not redesign the method; reopen it only if real research exposes a contradiction, and record that as a team decision.
 - In one line: the unit of analysis is an **investor location decision**, not a sector. Start from *which investor has to put capital somewhere, what decides where it goes, whether a specific place in Kazakhstan beats the strongest realistic rival on that factor for a large enough reachable market, and why the opportunity is still open*. Investor economics first; the KPMG oral briefing's principles are working tests throughout.
 - Active supporting files: `opportunities/ANALYSIS_PLAYBOOK.md` (reasoning habits), `opportunities/RESEARCH_PROTOCOL.md` (evidence rules), `BENCHMARK_LESSONS.md` (quality bar), `DATA_SOURCES.md` (source map).
+- Current execution assignments and owned-output format: `EXECUTION_PLAN.md`. For the assigned clean-discovery routes, use its restricted source packet instead of loading prior lists or project-state summaries into fresh research contexts.
 - `opportunities/SCREENING_APPROACH.md` is **reference / history**, superseded wherever it conflicts with the locked starting point.
 - The 39-card pass in `opportunities/discovery/` is a Kazakhstan fact bank and one specific-assets discovery pass, **not** the primary opportunity universe.
 
