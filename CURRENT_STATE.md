@@ -24,7 +24,7 @@ Source materials: the official case PDF, raw briefing transcript and briefing no
 - [x] Methodology reset: clean-room review + reconciliation with the previous operating plan
 - [x] **Starting point locked:** `LOCKED_STARTING_POINT.md` (authoritative for day-to-day work)
 - [x] Supporting method files: `opportunities/ANALYSIS_PLAYBOOK.md`, `opportunities/RESEARCH_PROTOCOL.md` (active); `opportunities/SCREENING_APPROACH.md` (reference/history; superseded where it conflicts with the locked starting point)
-- [ ] Discovery inputs (execution)
+- [x] Discovery inputs (execution)
 - [ ] Consolidation, cheap screening, validation, deep research
 - [ ] Human Top-5 selection and teaser choice
 - [ ] Deliverables and QA
@@ -36,6 +36,18 @@ Recorded on explicit user instruction after completion of blind structural QA:
 - A private Argon shadow-backup run exists but is **NOT ADMITTED** into the official opportunity universe. Do not use, inspect, merge, normalize, screen or otherwise incorporate its hypotheses during the upcoming four-stream merge or normal screening. Do not open the raw shadow output or copy its hypotheses, names, sources or conclusions into the canonical repository.
 - The shadow backup may only be reconsidered if the team explicitly triggers a bounded coverage/recovery check under the existing methodology (`EXECUTION_PLAN.md` §6); this record does not trigger such a check.
 - The shadow run's existence adds no evidence strength or confidence to any official BK hypothesis.
+
+## Execution decision — Sagadat discovery input (23 Oct 2026)
+Recorded after blind structural QA:
+- `opportunities/discovery/sagadat_clean_discovery_2026-10-23.md` is the **official frozen Sagadat discovery input**.
+- QA verdicts: **Process — PARTIALLY COMPLIANT; SG-R3 structural verdict — PARTIALLY COMPLIANT; Fatal structural defect — NO; ADMIT TO MASTER UNIVERSE FOR NORMAL SCREENING.**
+- The disclosed process deviations do not establish substantive opportunity-content contamination and do not block admission.
+- Admission gives SG-R3 no ranking, screening or shortlist advantage.
+- Preserve these unresolved issues for normal screening:
+  1. EU qualification / third-country certification and rival implications;
+  2. commercial timing and comparative economics;
+  3. whether an open investable commercial slot still exists.
+- Do not modify or strengthen SG-R3 before normal screening.
 
 ## The original 39-card discovery pass
 `opportunities/discovery/independent_pass_claude_2026-10-21.md` / `.csv` (39 hypotheses, 21 Oct) is **not the primary opportunity universe**. It was generated capability-first and is kept as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Its hypotheses get no grandfathering: each must meet the same investor-location logic as any new hypothesis. See `LOCKED_STARTING_POINT.md` §14.
