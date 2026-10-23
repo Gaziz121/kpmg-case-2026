@@ -1,6 +1,6 @@
 # Current State
 
-_Last updated: 22 Oct 2026_
+_Last updated: 23 Oct 2026_
 
 ## Case
 KPMG Strategy & Operations Case Competition 2026: identify investment niches in Kazakhstan for strategic foreign investors.
@@ -28,6 +28,14 @@ Source materials: the official case PDF, raw briefing transcript and briefing no
 - [ ] Consolidation, cheap screening, validation, deep research
 - [ ] Human Top-5 selection and teaser choice
 - [ ] Deliverables and QA
+
+## Execution decision — Beknur discovery input (23 Oct 2026)
+Recorded on explicit user instruction after completion of blind structural QA:
+- **BK-002, BK-003 and BK-004 remain the official Beknur discovery input.** BK-002 was assessed as structurally COMPLIANT; BK-003 and BK-004 as PARTIALLY COMPLIANT, with their unresolved issues preserved for normal screening.
+- No active BK slot was structurally unusable enough to trigger shadow replacement.
+- A private Argon shadow-backup run exists but is **NOT ADMITTED** into the official opportunity universe. Do not use, inspect, merge, normalize, screen or otherwise incorporate its hypotheses during the upcoming four-stream merge or normal screening. Do not open the raw shadow output or copy its hypotheses, names, sources or conclusions into the canonical repository.
+- The shadow backup may only be reconsidered if the team explicitly triggers a bounded coverage/recovery check under the existing methodology (`EXECUTION_PLAN.md` §6); this record does not trigger such a check.
+- The shadow run's existence adds no evidence strength or confidence to any official BK hypothesis.
 
 ## The original 39-card discovery pass
 `opportunities/discovery/independent_pass_claude_2026-10-21.md` / `.csv` (39 hypotheses, 21 Oct) is **not the primary opportunity universe**. It was generated capability-first and is kept as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Its hypotheses get no grandfathering: each must meet the same investor-location logic as any new hypothesis. See `LOCKED_STARTING_POINT.md` §14.
