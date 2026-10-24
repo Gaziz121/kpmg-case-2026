@@ -1,6 +1,6 @@
 # Current State
 
-_Last updated: 23 Oct 2026_
+_Last updated: 24 Oct 2026_
 
 ## Case
 KPMG Strategy & Operations Case Competition 2026: identify investment niches in Kazakhstan for strategic foreign investors.
@@ -12,9 +12,19 @@ Deliverables (official PDF):
 
 Source materials: the official case PDF, raw briefing transcript and briefing notes are tracked in `private/` (read-only; see `START_HERE.md` for reading order and authority); other `private/` files stay git-ignored. Copies also in the Drive folder linked in `START_HERE.md`.
 
+## Where we are (24 Oct 2026) — read this first
+- **Funnel so far:** 104 OPs (`opportunities/master_universe_2026-10-23.csv`) → cheap screening (AI-prepared recommendations, `opportunities/screening/`): 0 PASS / 71 UWT / 31 PARK / 2 FAIL → independent review: 23 serious candidates → **13 deep validations complete** (8 initial Tier-A + 5 rescue).
+- **Only provisional finalist:** OP-054 Grid BESS — competition-viable, not STRONG; depends on the pending standalone-storage payment mechanism / first auction.
+- **Reserves:** OP-099 ShalkiyaZinc (evidence-limited, not a structural kill) · OP-102 Taraz organophosphorus (reserve only) · OP-056 wind towers (reserve, out of Top-5).
+- **Closed:** structural kills OP-037, OP-034, OP-103, OP-081, OP-001 (as framed) · drop OP-006, OP-019 (downstream), OP-104 · park/drop OP-049.
+- Statuses, reasons, reopen conditions: `opportunities/VALIDATION_SUMMARY_2026-10-24.md` (human interpretation). For these 13 the validation status supersedes the screening UWT; screening files unchanged.
+- **Not validated:** 10 of the 23 serious candidates. The 23-candidate review and the 13 validation reports are not in the tracked repo.
+- **Decision point — sourcing.** Recommended next phase (**AI recommendation, pending team review**): opening-first triage of the *existing* universe → ≤6 fast validations → reserves as fallback. No from-scratch discovery. Gate, timetable and stop rules: `DECISIONS.md`, 24.10.
+- **Recommended hard times (Almaty):** discovery/gate freeze 24 Oct 21:00 · Top-5 + teaser freeze 25 Oct 10:00 · production 25 Oct · QA and early submission 26 Oct.
+
 ## Phase
 - **Phase 0 — case framing / methodology: CLOSED (21 Oct 2026).** The starting point is locked in `LOCKED_STARTING_POINT.md`. Do not redesign the method unless real research exposes a contradiction.
-- **Next: EXECUTION.** discovery inputs → consolidation → cheap screening → validation → deep research → human Top-5 selection → deliverables.
+- **EXECUTION:** discovery inputs → consolidation → cheap screening → validation → deep research → human Top-5 selection → deliverables. Merge, screening and validation round 1 are done; the project is at the sourcing decision point (24 Oct).
 
 ## Status
 - [x] Project setup; case PDF and briefing notes reviewed
@@ -25,8 +35,10 @@ Source materials: the official case PDF, raw briefing transcript and briefing no
 - [x] **Starting point locked:** `LOCKED_STARTING_POINT.md` (authoritative for day-to-day work)
 - [x] Supporting method files: `opportunities/ANALYSIS_PLAYBOOK.md`, `opportunities/RESEARCH_PROTOCOL.md` (active); `opportunities/SCREENING_APPROACH.md` (reference/history; superseded where it conflicts with the locked starting point)
 - [x] Discovery inputs (execution)
-- [ ] Consolidation, cheap screening, validation, deep research
-- [ ] Human Top-5 selection and teaser choice
+- [x] Consolidation / merge (104 OPs) and cheap screening (AI-prepared recommendations)
+- [x] Deep validation round 1: 13 OPs (`opportunities/VALIDATION_SUMMARY_2026-10-24.md`)
+- [ ] Next phase (recommended, pending team review): opening-first triage + ≤6 fast validations
+- [ ] Human Top-5 selection and teaser choice (recommended freeze: 25 Oct 10:00)
 - [ ] Deliverables and QA
 
 ## Execution decision — Beknur discovery input (23 Oct 2026)
@@ -53,7 +65,7 @@ Recorded after blind structural QA:
 `opportunities/discovery/independent_pass_claude_2026-10-21.md` / `.csv` (39 hypotheses, 21 Oct) is **not the primary opportunity universe**. It was generated capability-first and is kept as (A) a Kazakhstan fact bank and (B) one specific-assets discovery pass. Its hypotheses get no grandfathering: each must meet the same investor-location logic as any new hypothesis. See `LOCKED_STARTING_POINT.md` §14.
 
 ## Not yet decided
-No team screening decision has been made. No team longlist, shortlist, finalists, Top 5 or teaser have been selected.
+Screening statuses are AI-prepared recommendations. Validation statuses for the 13 OPs are a recorded human interpretation (24 Oct). OP-054 is a provisional finalist, not a selected Top-5 entry. No team Top 5 or teaser has been selected.
 
 Aibek's 59-niche draft (`opportunities/discovery/longlist_aibek_uzkie_nishi_2026-10-22.md`) is individual discovery input, not a team-selected longlist. His "narrow niche with large impact" lens is a proposed search lens, not an adopted team strategy. His sulfuric-acid deferral applies to his own work, not a team PARK / FAIL / exclusion; see `DECISIONS.md` for attribution.
 
